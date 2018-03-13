@@ -6,3 +6,4 @@ This repo contains code examples of various design patterns.
 * Mediator
 * MVC
 * Strategy
+* Factory
