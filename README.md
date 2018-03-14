@@ -7,3 +7,5 @@ This repo contains code examples of various design patterns.
 * MVC
 * Strategy
 * Factory
+* Builder
+* Facade
