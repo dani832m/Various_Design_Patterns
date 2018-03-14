@@ -9,3 +9,4 @@ This repo contains code examples of various design patterns.
 * Factory
 * Builder
 * Facade
+* Proxy
