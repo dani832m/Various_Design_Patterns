@@ -31,6 +31,7 @@ public abstract class InfantryUnit {
         unit.takeDamage(attackDamage);
     }
 
+    //Lidt getters og setters
     public int getHits() {
         return hits;
     }
