@@ -3,6 +3,6 @@ package Design_Pattern_Exercise;
 public class Musketeer extends InfantryUnit {
 
     public Musketeer() {
-        super(19, 600, 19, 50);
+        super(19, 60, 19, 5);
     }
 }

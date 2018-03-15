@@ -7,6 +7,7 @@ public abstract class InfantryUnit {
     private int armor;
     private int hits;
     private int damage;
+    private String name;
 
     //Constructor med 4 parametre
     public InfantryUnit(int range, int armor, int hits, int damage){
@@ -28,6 +29,18 @@ public abstract class InfantryUnit {
     public void attack(InfantryUnit unit) {
         int attackDamage = (int) (Math.random()*damage)+1;
         unit.takeDamage(attackDamage);
+    }
+
+    public int getHits() {
+        return hits;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
 }
